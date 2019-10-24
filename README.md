@@ -1,1 +1,1 @@
-# APP_MindMessage_Solo
+# APP_MindMessage
