@@ -38,14 +38,20 @@ apk 파일 설치
 
 사용법 (Getting Started)
 ---
+ppt참고
 
 파일 정보 및 목록 (File Manifest)
 ---
+server: jsp로 작성한 서버 소스코드
 
+application: 안드로이드 스튜디오 내 소스 코드
+
+image: ppt에서 사용한 application 동작 스크린샷 이미지
 
 배포자 및 개발자의 연락처 정보 (Contact Information)
 ---
 개발자 : 유황국
+
 email: akik1245@gmail.com
 
 알려진 버그 (Known Issues)
