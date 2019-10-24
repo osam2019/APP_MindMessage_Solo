@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".WriteReplyActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/txt"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="답장 쓰기"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="15"
+    android:layout_margin="20dp"
+    android:background="@drawable/border"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/text_ext_r"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="내용"
+        android:includeFontPadding="false"
+        android:background="@android:color/transparent"
+        android:inputType="textMultiLine" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dp"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/back_btn_r"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:onClick="backBtn"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="취소" />
+
+    <Button
+        android:id="@+id/send1_btn_r"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:onClick="sendBtn"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="보내기" />
+
+</LinearLayout>
+
+</LinearLayout>
